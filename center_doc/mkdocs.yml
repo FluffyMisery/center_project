@@ -1,0 +1,27 @@
+
+site_name: Center
+nav:
+  - Home: index.md
+  - Api:
+    - "/agents": api/agents.md
+    - "/appartments": api/appartments.md
+    - "/appartments/create": api/apartment_create.md
+    - "/appartments/update": api/apartment_update.md
+    - "/contracts": api/contracts.md
+    - "/contract/create": api/contract_create.md
+    - "/contract/update": api/contract_update.md
+    - "/contract/delete": api/contract_delete.md
+    - "/buildings": api/buildings.md
+    - "/buildings/create": api/building_create.md
+    - "/buildings/update": api/building_update.md
+    - "/buildings/delete": api/building_delete.md
+    - "/users": api/users.md
+    - "/models": api/models.md
+  - Front:
+    - "/login": front/login.md
+    - "/signup": front/signup.md
+    - "/admin": front/admin.md
+    - "/appartments": front/appartments.md
+    - "/agents": front/agents.md
+theme:
+ name: gitbook
