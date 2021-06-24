@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>/agents - Center</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="generator" content="mkdocs-1.2.1, mkdocs-gitbook-1.0.7">
+
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta rel="next" href="" />
+<link href="../css/style.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+<div class="book">
+<div class="book-summary">
+<div id="book-search-input" role="search">
+<input type="text" placeholder="Type to search" />
+</div> <!-- end of book-search-input -->
+
+<nav role="navigation">
+<ul class="summary">
+<li>
+<a href="../index.html" target="_blank" class="custom-link">Center</a>
+</li>
+<li class="divider"></li>
+<li class="chapter" data-path="index.html">
+<a href="../index.html">Home</a>
+<li class="header">Api</li>
+
+<li>
+<a href="agents.html" class="active">/agents</a>
+</li>
+
+<li>
+<a href="appartments.html" class="">/appartments</a>
+</li>
+
+<li>
+<a href="apartment_create.html" class="">/appartments/create</a>
+</li>
+
+<li>
+<a href="apartment_update.html" class="">/appartments/update</a>
+</li>
+
+<li>
+<a href="contracts.html" class="">/contracts</a>
+</li>
+
+<li>
+<a href="contract_create.html" class="">/contract/create</a>
+</li>
+
+<li>
+<a href="contract_update.html" class="">/contract/update</a>
+</li>
+
+<li>
+<a href="contract_delete.html" class="">/contract/delete</a>
+</li>
+
+<li>
+<a href="buildings.html" class="">/buildings</a>
+</li>
+
+<li>
+<a href="building_create.html" class="">/buildings/create</a>
+</li>
+
+<li>
+<a href="building_update.html" class="">/buildings/update</a>
+</li>
+
+<li>
+<a href="building_delete.html" class="">/buildings/delete</a>
+</li>
+
+<li>
+<a href="users.html" class="">/users</a>
+</li>
+
+<li>
+<a href="models.html" class="">/models</a>
+</li>
+
+<li class="header">Front</li>
+
+<li>
+<a href="../front/login.html" class="">/login</a>
+</li>
+
+<li>
+<a href="../front/signup.html" class="">/signup</a>
+</li>
+
+<li>
+<a href="../front/admin.html" class="">/admin</a>
+</li>
+
+<li>
+<a href="../front/appartments.html" class="">/appartments</a>
+</li>
+
+<li>
+<a href="../front/agents.html" class="">/agents</a>
+</li>
+
+<li class="divider"></li>
+
+
+
+<li><a href="http://www.mkdocs.org">
+Published with MkDocs
+</a></li>
+
+<li><a href="https://github.com/GitbookIO/theme-default">
+Theme by GitBook
+</a></li>
+</ul>
+
+</nav>
+
+</div> <!-- end of book-summary -->
+
+<div class="book-body">
+<div class="body-inner">
+<div class="book-header" role="navigation">
+
+<!-- Title -->
+<h1>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<a href="." ></a>
+</h1>
+
+</div> <!-- end of book-header -->
+
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="page-inner">
+<div id="book-search-results">
+<div class="search-noresults">
+
+<section class="normal markdown-section">
+
+
+
+<p><strong>URL</strong> : <code>/agents/</code></p>
+<p><strong>Method</strong> : <code>GET</code></p>
+<p><strong>Auth required</strong> : No</p>
+<p><strong>Permissions required</strong> : None</p>
+<p><strong>Data constraints</strong> : <code>{}</code></p>
+<h2 id="success-responses">Success Responses</h2>
+<p><strong>Code</strong> : <code>200 OK</code></p>
+<p><strong>Content</strong> : <code>{[]}</code></p>
+<pre><code class="language-json">{
+   &quot;Agents&quot;: [
+    {
+        &quot;UserID&quot;: 1,
+        &quot;password&quot;: &quot;pbkdf2_sha256$260000$PH7sC6aSpTauqCP6k9ROOn$VsoDYguR9AqlLxWGVp5GDRHqVJPrptZLJ3tnz3zNGUE=&quot;,
+        &quot;last_login&quot;: &quot;2021-06-22T19:54:56.106464Z&quot;,
+        &quot;is_superuser&quot;: true,
+        &quot;username&quot;: &quot;Admin&quot;,
+        &quot;first_name&quot;: &quot;&quot;,
+        &quot;last_name&quot;: &quot;&quot;,
+        &quot;email&quot;: &quot;admin@gmail.com&quot;,
+        &quot;is_staff&quot;: true,
+        &quot;is_active&quot;: true,
+        &quot;date_joined&quot;: &quot;2021-06-22T19:54:40.254073Z&quot;,
+        &quot;Passport&quot;: null,
+        &quot;Phone&quot;: null,
+        &quot;BirthDate&quot;: null,
+        &quot;groups&quot;: [],
+        &quot;user_permissions&quot;: []
+    },
+    {
+        &quot;UserID&quot;: 2,
+        &quot;password&quot;: &quot;1234&quot;,
+        &quot;last_login&quot;: null,
+        &quot;is_superuser&quot;: false,
+        &quot;username&quot;: &quot;agent1&quot;,
+        &quot;first_name&quot;: &quot;Олег&quot;,
+        &quot;last_name&quot;: &quot;Смирнов&quot;,
+        &quot;email&quot;: &quot;smirnov@gmail.com&quot;,
+        &quot;is_staff&quot;: true,
+        &quot;is_active&quot;: true,
+        &quot;date_joined&quot;: &quot;2021-06-22T20:13:04Z&quot;,
+        &quot;Passport&quot;: null,
+        &quot;Phone&quot;: &quot;89051234567&quot;,
+        &quot;BirthDate&quot;: &quot;2021-06-01&quot;,
+        &quot;groups&quot;: [],
+        &quot;user_permissions&quot;: []
+    },
+    {
+        &quot;UserID&quot;: 3,
+        &quot;password&quot;: &quot;1234&quot;,
+        &quot;last_login&quot;: null,
+        &quot;is_superuser&quot;: false,
+        &quot;username&quot;: &quot;agent2&quot;,
+        &quot;first_name&quot;: &quot;Николай&quot;,
+        &quot;last_name&quot;: &quot;Лебедев&quot;,
+        &quot;email&quot;: &quot;lebedev@gmail.com&quot;,
+        &quot;is_staff&quot;: true,
+        &quot;is_active&quot;: true,
+        &quot;date_joined&quot;: &quot;2021-06-22T20:14:14Z&quot;,
+        &quot;Passport&quot;: null,
+        &quot;Phone&quot;: &quot;89087654321&quot;,
+        &quot;BirthDate&quot;: &quot;2021-05-04&quot;,
+        &quot;groups&quot;: [],
+        &quot;user_permissions&quot;: []
+    }
+]
+}
+</code></pre>
+
+
+</section>
+</div> <!-- end of search-noresults -->
+<div class="search-results">
+<div class="has-results">
+
+<h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+<ul class="search-results-list"></ul>
+
+</div> <!-- end of has-results -->
+<div class="no-results">
+
+<h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+
+</div> <!-- end of no-results -->
+</div> <!-- end of search-results -->
+</div> <!-- end of book-search-results -->
+
+</div> <!-- end of page-inner -->
+</div> <!-- end of page-wrapper -->
+
+</div> <!-- end of body-inner -->
+
+</div> <!-- end of book-body -->
+<script src="../js/main.js"></script>
+<script src="../search/main.js"></script>
+<script src="../js/gitbook.min.js"></script>
+<script src="../js/theme.min.js"></script>
+</body>
+</html>
